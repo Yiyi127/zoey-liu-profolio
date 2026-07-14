@@ -46,7 +46,8 @@
     --ease:cubic-bezier(.2,.7,.2,1);
   }
   *{box-sizing:border-box}
-  html{scroll-behavior:smooth}
+  html{scroll-behavior:smooth;overflow-x:hidden;max-width:100%}
+  .prod-grid>*,.skills-grid>*,.metrics-grid>*{min-width:0}
   body{
     margin:0;
     background:var(--ink);
@@ -634,7 +635,6 @@
         <div class="shot">
           <img src="assets/jwiz.png" alt="JWiz on the App Store — 5.0 rating" loading="lazy" />
           <span class="os-tag">iOS · Android</span>
-          <span class="rating">★ 5.0</span>
         </div>
         <div class="card-body">
           <div class="kicker">Platform + Apps · AI search</div>
@@ -658,7 +658,6 @@
         <div class="shot">
           <img src="assets/gameon.png" alt="GameOn Fantasy on the App Store — 4.4 rating" loading="lazy" />
           <span class="os-tag">iOS · Android</span>
-          <span class="rating">★ 4.4</span>
         </div>
         <div class="card-body">
           <div class="kicker">Sports · built solo</div>
@@ -678,7 +677,6 @@
         <div class="shot">
           <img src="assets/synker.png" alt="Synker on the App Store — 5.0 rating" loading="lazy" />
           <span class="os-tag">iOS · Android</span>
-          <span class="rating">★ 5.0</span>
         </div>
         <div class="card-body">
           <div class="kicker">Sports intelligence · built solo</div>
@@ -698,7 +696,6 @@
         <div class="shot">
           <img src="assets/klotofy.png" alt="Klotofy on the App Store — 5.0 rating" loading="lazy" />
           <span class="os-tag">iOS · Android</span>
-          <span class="rating">★ 5.0</span>
         </div>
         <div class="card-body">
           <div class="kicker">Fashion discovery · built solo</div>
