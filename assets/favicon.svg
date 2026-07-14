@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#0B0E14"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="13.5" fill="none" stroke="#F5A623" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="32" y="45" font-family="'JetBrains Mono','Courier New',monospace" font-size="40" font-weight="700" fill="#F5A623" text-anchor="middle">Z</text>
+  <circle cx="49" cy="17" r="3.4" fill="#F5A623"/>
+</svg>
